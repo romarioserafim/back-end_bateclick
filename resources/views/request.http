@@ -1,0 +1,10 @@
+POST http://localhost:8989/api/veiculo
+Content-Type: application/json
+
+{
+    "modelo": "Fit",
+    "fabricante": "honda",
+    "ano": "2012",
+    "preco": "20.000",
+}
+
