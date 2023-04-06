@@ -32,6 +32,10 @@ composer install
 Gerar a key do projeto
 ```sh
 php artisan key:generate
+
+Gerar migrates
+```sh
+php artisan migrate
 ```
 
 
