@@ -41,7 +41,7 @@ Acessar o projeto
 
 as rotas disponiveis são :
 
-## Para cadastrar novo veiculo  - http://localhost:8989/api/veiculo - POST.
+## Para cadastrar novo veículo  - http://localhost:8989/api/veiculo - POST.
 curl --location 'http://localhost:8989/api/veiculo' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -64,10 +64,10 @@ curl --location --request PUT 'http://localhost:8989/api/veiculo/9' \
 }'
 
 
-## Para deletar Veículo - http://localhost:8989/api/defeito/8 - DELETE
+## Para deletar veículo - http://localhost:8989/api/defeito/8 - DELETE
 curl --location --request DELETE 'http://localhost:8989/api/veiculo/1'
 
-## Para listar veiculos cadastrados http://localhost:8989/api/veiculo - GET
+## Para listar veículos cadastrados http://localhost:8989/api/veiculo - GET
 
 curl --location 'http://localhost:8989/api/veiculo'
 
